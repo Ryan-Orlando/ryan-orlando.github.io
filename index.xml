@@ -5,16 +5,6 @@
     <link>https://ryan-orlando.github.io/</link>
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 05 Dec 2021 15:05:51 +0530</lastBuildDate><atom:link href="https://ryan-orlando.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>First-test Post</title>
-      <link>https://ryan-orlando.github.io/posts/new-post/</link>
-      <pubDate>Sun, 05 Dec 2021 15:05:51 +0530</pubDate>
-      
-      <guid>https://ryan-orlando.github.io/posts/new-post/</guid>
-      <description>This is a test markdown UwU</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://ryan-orlando.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
