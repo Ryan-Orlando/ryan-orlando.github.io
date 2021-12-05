@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog</title>
+    <link>https://ryan-orlando.github.io/</link>
+    <description>Recent content on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Dec 2021 15:05:51 +0530</lastBuildDate><atom:link href="https://ryan-orlando.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First-test Post</title>
+      <link>https://ryan-orlando.github.io/posts/new-post/</link>
+      <pubDate>Sun, 05 Dec 2021 15:05:51 +0530</pubDate>
+      
+      <guid>https://ryan-orlando.github.io/posts/new-post/</guid>
+      <description>This is a test markdown UwU</description>
+    </item>
+    
+  </channel>
+</rss>
