@@ -5,6 +5,16 @@
     <link>https://ryan-orlando.github.io/</link>
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ryan-orlando.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Dec 2021 15:59:35 +0530</lastBuildDate><atom:link href="https://ryan-orlando.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Temp</title>
+      <link>https://ryan-orlando.github.io/posts/new-post/temp/</link>
+      <pubDate>Sun, 05 Dec 2021 15:59:35 +0530</pubDate>
+      
+      <guid>https://ryan-orlando.github.io/posts/new-post/temp/</guid>
+      <description>A new post to replace the existing one</description>
+    </item>
+    
   </channel>
 </rss>

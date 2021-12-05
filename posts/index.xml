@@ -6,14 +6,14 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Dec 2021 15:05:51 +0530</lastBuildDate><atom:link href="https://ryan-orlando.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Dec 2021 15:59:35 +0530</lastBuildDate><atom:link href="https://ryan-orlando.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First-test Post</title>
-      <link>https://ryan-orlando.github.io/posts/new-post/</link>
-      <pubDate>Sun, 05 Dec 2021 15:05:51 +0530</pubDate>
+      <title>Temp</title>
+      <link>https://ryan-orlando.github.io/posts/new-post/temp/</link>
+      <pubDate>Sun, 05 Dec 2021 15:59:35 +0530</pubDate>
       
-      <guid>https://ryan-orlando.github.io/posts/new-post/</guid>
-      <description>This is a test markdown UwU</description>
+      <guid>https://ryan-orlando.github.io/posts/new-post/temp/</guid>
+      <description>A new post to replace the existing one</description>
     </item>
     
   </channel>
