@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Blog</title>
+    <title>Categories on ZenithFall-Blog</title>
     <link>https://ryan-orlando.github.io/categories/</link>
-    <description>Recent content in Categories on Blog</description>
+    <description>Recent content in Categories on ZenithFall-Blog</description>
+    <image>
+      <url>https://ryan-orlando.github.io/resources/_gen/images/profilepic.jpg</url>
+      <link>https://ryan-orlando.github.io/resources/_gen/images/profilepic.jpg</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ryan-orlando.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 16:00:47 +0530</lastBuildDate><atom:link href="https://ryan-orlando.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://ryan-orlando.github.io/categories/introduction/</link>
+      <pubDate>Mon, 06 Dec 2021 16:00:47 +0530</pubDate>
+      
+      <guid>https://ryan-orlando.github.io/categories/introduction/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

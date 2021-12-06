@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Blog</title>
+    <title>Posts on ZenithFall-Blog</title>
     <link>https://ryan-orlando.github.io/posts/</link>
-    <description>Recent content in Posts on Blog</description>
+    <description>Recent content in Posts on ZenithFall-Blog</description>
+    <image>
+      <url>https://ryan-orlando.github.io/resources/_gen/images/profilepic.jpg</url>
+      <link>https://ryan-orlando.github.io/resources/_gen/images/profilepic.jpg</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 05 Dec 2021 15:59:35 +0530</lastBuildDate><atom:link href="https://ryan-orlando.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 16:00:47 +0530</lastBuildDate><atom:link href="https://ryan-orlando.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Temp</title>
-      <link>https://ryan-orlando.github.io/posts/new-post/temp/</link>
-      <pubDate>Sun, 05 Dec 2021 15:59:35 +0530</pubDate>
+      <title>Hello World</title>
+      <link>https://ryan-orlando.github.io/posts/john_doe/</link>
+      <pubDate>Mon, 06 Dec 2021 16:00:47 +0530</pubDate>
       
-      <guid>https://ryan-orlando.github.io/posts/new-post/temp/</guid>
-      <description>A new post to replace the existing one&amp;hellip; Now im adding a new line lol</description>
+      <guid>https://ryan-orlando.github.io/posts/john_doe/</guid>
+      <description>Introduction</description>
     </item>
     
   </channel>
