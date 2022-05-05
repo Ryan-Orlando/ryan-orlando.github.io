@@ -103,18 +103,18 @@ A bit of flag{} and a bit of morse code
 <h2 id=the-problem>The problem<a hidden class=anchor aria-hidden=true href=#the-problem>#</a></h2>
 <p>In this post I&rsquo;ll talk about a Jeopardy style CTF challenge given by my college&rsquo;s CS club that me and my team faced.</p>
 <p>It was in a form of a webpage:</p>
-<p><img loading=lazy src=/../images/ohno_og.PNG alt="The webpage with text ohno">
+<p><img loading=lazy src=/../images/ctf_morse/ohno_og.PNG alt="The webpage with text ohno">
 </p>
 <p>See anything??</p>
-<p>Well let&rsquo;s list out the only obvious thing out of this&mldr;.<a href=/../files/secret.rar>oh no</a></p>
+<p>Well let&rsquo;s list out the only obvious thing out of this&mldr;.<a href=/../files/ctf_morse/secret.rar>oh no</a></p>
 <p>Wait a sec? Did you press <strong>oh no</strong>? Well you are one step closer in solving this problem. For the rest of you who didn&rsquo;t, don&rsquo;t worry its nothing harmful and I&rsquo;ll explain more about it below. Either way, when you press the <strong>oh no</strong> you will start downloading a file of <code>.rar</code> file (Compressed Archive file). When you try to open it you will be faced with a message telling you to enter a password in order to open its contents.</p>
-<p><img loading=lazy src=/../images/Cap4.PNG alt="A password roadblock">
+<p><img loading=lazy src=/../images/ctf_morse/Cap4.PNG alt="A password roadblock">
 </p>
 <p>Hmmmm&mldr;..let&rsquo;s take a step back. How about we look at the site&rsquo;s source code?</p>
-<p><img loading=lazy src=/../images/inspect.png alt="Inspecting source code">
+<p><img loading=lazy src=/../images/ctf_morse/inspect.png alt="Inspecting source code">
 </p>
 <p>And then we see this:</p>
-<p><img loading=lazy src=/../images/Capture1.PNG alt="The source code">
+<p><img loading=lazy src=/../images/ctf_morse/Capture1.PNG alt="The source code">
 </p>
 <p>Ok so far so good. Now what? There are two things that are &ldquo;clickable&rdquo;:</p>
 <ul>
@@ -122,26 +122,26 @@ A bit of flag{} and a bit of morse code
 <li><code>/images/secret.rar</code></li>
 </ul>
 <p>If anyone knows a bit of HTML then this would solve the other part of the problem. That downloadable file by clicking that text <strong>oh no</strong>, its name is <code>secret.rar</code>. So one of them makes sense that the anchor part of the HTML (that <strong>oh no</strong>) downloads that file. Which leaves us with the other asset, a CSS file. CSS file is what &lsquo;styles&rsquo; or we can say &lsquo;designs&rsquo; the HTML page. So lets replace <code>phoebe.html</code> with <code>assets/css/phoebe.css</code> or simply clicking on it, leading us to a CSS file syntax (shown as below):</p>
-<p><img loading=lazy src=/../images/Capture2.PNG alt="CSS file">
+<p><img loading=lazy src=/../images/ctf_morse/Capture2.PNG alt="CSS file">
 </p>
 <p>And then we can see the <em>background</em> attribute with the path of that image <code>/images/ohno.png</code>. All we have to do this replace the URL with the background image path to get the full view of the image. &ldquo;Whats the use of it?&rdquo; you may ask&mldr;.well bare with me its actually a part of the solution. Here is the full view of the background:</p>
-<p><img loading=lazy src=/../images/ohno.png alt="background UwU">
+<p><img loading=lazy src=/../images/ctf_morse/ohno.png alt="background UwU">
 </p>
 <p>Any difference?&mldr;&mldr;nothing?&mldr;&mldr; :(</p>
 <p>I had to look at this picture for more than 30 minutes&mldr;yes 30 mins to find the difference and man I tell you it was a facepalm moment. Lets start from the borders&mldr;..wait a sec&mldr;..whats that on the left corner?</p>
-<p><img loading=lazy src=/../images/ohno_pass.png alt="password finally">
+<p><img loading=lazy src=/../images/ctf_morse/ohno_pass.png alt="password finally">
 </p>
 <p>You see it? A string of characters. &ldquo;<strong>25w500f</strong>&rdquo;. I wasn&rsquo;t able to see it before since the website background was cropped in a manner hiding some portions along the borders. I wonder what this would be used for? Maybe, just maybe&mldr;.if this is the password we needed? Cowabunga it is&mldr;.</p>
 <p>Yup and it worked. Finally&mldr;&mldr;those 30 minutes felt like a whole lifespan of a dragon. Now we get to see the content of the <em>secret</em> file. Huh&mldr;.an audio file named <code>secret</code>.</p>
-<p><img loading=lazy src=/../images/Capture5.PNG alt="another secret">
+<p><img loading=lazy src=/../images/ctf_morse/Capture5.PNG alt="another secret">
 </p>
-<p>Lets <a href=/../files/secret.mp3>open</a> it (btw its not a harmful file&mldr;don&rsquo;t worry)</p>
+<p>Lets <a href=/../files/ctf_morse/secret.mp3>open</a> it (btw its not a harmful file&mldr;don&rsquo;t worry)</p>
 <p>Hmmm&mldr;.a song at the start, and then beeping sounds? Oh wait a sec&mldr;isn&rsquo;t that <a href=https://en.wikipedia.org/wiki/Morse_code>Morse Code</a>? I&rsquo;m glad that I realized it since I had the 26 english letters morse code by-hearted during my last 2 years of schooling (totally non-productive).</p>
 <p><code>.-.. --- .-..</code></p>
 <p>There is more audio even after the morse code? I wonder what tha&mldr;&mldr;&mldr;..moving on</p>
-<p>Ok lets focus on the morse code audio. Now I used an online website which decodes the audio format of the morse code. <a href=https://databorder.com/transfer/morse-sound-receiver/>Here it is</a>. And here is the <a href=/../files/secretCopy.mp3>morse code part</a> only for you to try.</p>
+<p>Ok lets focus on the morse code audio. Now I used an online website which decodes the audio format of the morse code. <a href=https://databorder.com/transfer/morse-sound-receiver/>Here it is</a>. And here is the <a href=/../files/ctf_morse/secretCopy.mp3>morse code part</a> only for you to try.</p>
 <p>And therefore this flag has been found, or you can say its captured.</p>
-<p><img loading=lazy src=/../images/Capture6.PNG alt="the sussy flag flag{flag1rnar3llyc00lperson}">
+<p><img loading=lazy src=/../images/ctf_morse/Capture6.PNG alt="the sussy flag flag{flag1rnar3llyc00lperson}">
 </p>
 <p>Well not quite, this contest had all letters in small caps and it was in the format of</p>
 <ul>
@@ -185,7 +185,7 @@ A bit of flag{} and a bit of morse code
 </article>
 </main>
 <footer class=footer>
-<span>&copy; 2021 <a href=https://ryan-orlando.github.io/>ZenithFall-Blog</a></span>
+<span>&copy; 2022 <a href=https://ryan-orlando.github.io/>ZenithFall-Blog</a></span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CP on ZenithFall-Blog</title>
+    <link>https://ryan-orlando.github.io/tags/cp/</link>
+    <description>Recent content in CP on ZenithFall-Blog</description>
+    <image>
+      <url>https://ryan-orlando.github.io/resources/_gen/images/profilepic.jpg</url>
+      <link>https://ryan-orlando.github.io/resources/_gen/images/profilepic.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 12 Jan 2022 12:38:29 +0530</lastBuildDate><atom:link href="https://ryan-orlando.github.io/tags/cp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Competition and Programming</title>
+      <link>https://ryan-orlando.github.io/posts/cp_spark_plug/</link>
+      <pubDate>Wed, 12 Jan 2022 12:38:29 +0530</pubDate>
+      
+      <guid>https://ryan-orlando.github.io/posts/cp_spark_plug/</guid>
+      <description>CP is the short form for Competitive Programming</description>
+    </item>
+    
+  </channel>
+</rss>

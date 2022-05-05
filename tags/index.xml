@@ -9,7 +9,34 @@
       <link>https://ryan-orlando.github.io/resources/_gen/images/profilepic.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 29 Dec 2021 12:38:29 +0530</lastBuildDate><atom:link href="https://ryan-orlando.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 12:38:29 +0530</lastBuildDate><atom:link href="https://ryan-orlando.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CP</title>
+      <link>https://ryan-orlando.github.io/tags/cp/</link>
+      <pubDate>Wed, 12 Jan 2022 12:38:29 +0530</pubDate>
+      
+      <guid>https://ryan-orlando.github.io/tags/cp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CS</title>
+      <link>https://ryan-orlando.github.io/tags/cs/</link>
+      <pubDate>Wed, 12 Jan 2022 12:38:29 +0530</pubDate>
+      
+      <guid>https://ryan-orlando.github.io/tags/cs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://ryan-orlando.github.io/tags/tutorial/</link>
+      <pubDate>Wed, 12 Jan 2022 12:38:29 +0530</pubDate>
+      
+      <guid>https://ryan-orlando.github.io/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Games</title>
       <link>https://ryan-orlando.github.io/tags/games/</link>
@@ -25,15 +52,6 @@
       <pubDate>Wed, 29 Dec 2021 12:38:29 +0530</pubDate>
       
       <guid>https://ryan-orlando.github.io/tags/misc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CS</title>
-      <link>https://ryan-orlando.github.io/tags/cs/</link>
-      <pubDate>Tue, 07 Dec 2021 12:38:29 +0530</pubDate>
-      
-      <guid>https://ryan-orlando.github.io/tags/cs/</guid>
       <description></description>
     </item>
     
@@ -61,15 +79,6 @@
       <pubDate>Mon, 06 Dec 2021 16:00:47 +0530</pubDate>
       
       <guid>https://ryan-orlando.github.io/tags/john-doe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorial</title>
-      <link>https://ryan-orlando.github.io/tags/tutorial/</link>
-      <pubDate>Mon, 06 Dec 2021 16:00:47 +0530</pubDate>
-      
-      <guid>https://ryan-orlando.github.io/tags/tutorial/</guid>
       <description></description>
     </item>
     
