@@ -9,7 +9,7 @@
       <link>https://ryan-orlando.github.io/resources/_gen/images/profilepic.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 29 Dec 2021 12:38:29 +0530</lastBuildDate><atom:link href="https://ryan-orlando.github.io/tags/misc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 14:22:18 +0530</lastBuildDate><atom:link href="https://ryan-orlando.github.io/tags/misc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
       <link>https://ryan-orlando.github.io/posts/john_doe/</link>
@@ -17,6 +17,15 @@
       
       <guid>https://ryan-orlando.github.io/posts/john_doe/</guid>
       <description>Introduction</description>
+    </item>
+    
+    <item>
+      <title>Cooking recipes</title>
+      <link>https://ryan-orlando.github.io/posts/let_him_cook/</link>
+      <pubDate>Wed, 24 Jul 2024 14:22:18 +0530</pubDate>
+      
+      <guid>https://ryan-orlando.github.io/posts/let_him_cook/</guid>
+      <description>This post will serve me and others who are interested in cooking recipes to refer here for the future</description>
     </item>
     
     <item>
